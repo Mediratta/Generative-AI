@@ -20,10 +20,10 @@ dataset used :  This dataset contains thousands of questions and multiple-choice
 ChatGPT is a well-known and widely used large language model that is excellent at generating creative text formats. Perplexity AI is a library that provides a range of AI models and tools for building and training AI models. By combining these two models, we can create a game-theoretic approach that improves the consistency and reliability of AI model outputs.
 ## Working Layout of the Project:
 The project is structured as follows:
-models: This directory contains the two AI models used in the project: ChatGPT and Perplexity AI.
-data: This directory contains the dataset used to train the models.
-game: This directory contains the game design and implementation.
-evaluation: This directory contains the code for evaluating the performance of the models.
+1. models: This directory contains the two AI models used in the project: ChatGPT and Perplexity AI.
+2. data: This directory contains the dataset used to train the models.
+3. game: This directory contains the game design and implementation.
+4. evaluation: This directory contains the code for evaluating the performance of the models.
 
 ## Methodology:
 The methodology used in this project is based on the game-theoretic approach. The two AI models interact with each other in a game, generating and guessing messages, and through this interaction, they both get better at their jobs. The game is designed to improve the consistency and reliability of AI model outputs.
