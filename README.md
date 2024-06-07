@@ -9,14 +9,18 @@ The project aims to enhance the performance of language models by incorporating 
 ### 3. Develop a novel decoding algorithm: 
 The project aims to develop a novel decoding algorithm that can be used to improve the reliability of language models.
 ## Methodology:
-1. Initialization of the game: The game is initialized by sampling a correctness parameter from a predefined set.
-2. Generator and discriminator: The generator and discriminator are trained to produce and evaluate natural language strings based on the correctness parameter.
-3. Equilibrium-Ranking: The game is solved using computational procedures to find approximate equilibria, resulting in a decoding algorithm called Equilibrium-Ranking.
-4. Implementation: The decoding algorithm is implemented with a generator and a discriminator that interact to agree on the correctness of a message.
-5. Evaluation:
-a.Cost Consensus Metric: This metric measures the minimal distance between each decision maker's preference and the collective opinion, aiming to minimize the overall cost.
-b.Distance-Based Consensus Metric: This metric calculates the distance between the collective opinion and each decision maker's preference, providing a measure of consensus.
-c.Gameplay Metrics: These metrics can be used to analyze gameplay and improve the Consensus Game. Examples include player retention, acquisition, and monetization metrics
+### 1. Initialization of the game:
+The game is initialized by sampling a correctness parameter from a predefined set.
+### 2. Generator and discriminator:
+The generator and discriminator are trained to produce and evaluate natural language strings based on the correctness parameter.
+### 3. Equilibrium-Ranking:
+The game is solved using computational procedures to find approximate equilibria, resulting in a decoding algorithm called Equilibrium-Ranking.
+### 4. Implementation:
+The decoding algorithm is implemented with a generator and a discriminator that interact to agree on the correctness of a message.
+### 5. Evaluation:
+1.Cost Consensus Metric: This metric measures the minimal distance between each decision maker's preference and the collective opinion, aiming to minimize the overall cost.
+2.Distance-Based Consensus Metric: This metric calculates the distance between the collective opinion and each decision maker's preference, providing a measure of consensus.
+3.Gameplay Metrics: These metrics can be used to analyze gameplay and improve the Consensus Game. Examples include player retention, acquisition, and monetization metrics
 ## Technical Requirements:
 1. Programming Language: Python
 2. Machine Learning Library: TensorFlow or PyTorch
