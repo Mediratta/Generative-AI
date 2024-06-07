@@ -1,4 +1,4 @@
-# Project Title: Reliable Language Models through Game-Theoretic Approach
+# Reliable Language Models through Game-Theoretic Approach
 ## Project Description:
 This project aims to improve the reliability of language models by incorporating a game-theoretic approach. The project is inspired by the Consensus Game, which reconciles mutually incompatible scoring procedures to achieve better performance.
 ## Objectives:
