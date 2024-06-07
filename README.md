@@ -1,32 +1,33 @@
-#  Equilibrium Ranking for Consistent AI Model Outputs
-## Problem Definition:
-The Consensus Game is a game-theoretic approach to language model decoding. It treats the decoding process as a complex game of clues and signals, where a generator tries to send the right message to a discriminator using natural language. The goal is to find an equilibrium where both parts agree on the correct message, ensuring accurate and coherent predictions.
-## Project Steps:
-1.Data Preparation: Prepare the datasets for the tasks to be performed, such as reading comprehension, commonsense reasoning, math problem-solving, and dialogue.
-2.Model Selection: Choose the language models to be used, such as LLaMA-7B, and explain why they were selected.
-3.Game-Theoretic Approach: Implement the game-theoretic method called "equilibrium ranking" to find approximate equilibria of the game.
-4. Training and Testing: Train and test the model on the prepared datasets, evaluating its performance and comparing it to other methods.
-5.Integration and Enhancement: Integrate the outputs of the current method to enhance the base model, resulting in more factual and consistent answers across various tasks.
-## Technologies Used:
-1. Python: The primary programming language for the project.
-2. PyTorch: A popular deep learning framework used for building and training the language models.
-3. NLTK: A natural language processing library used for text preprocessing and tokenization.
-4. Spacy: A modern natural language processing library used for tokenization and entity recognition.
-## Models Used:
-LLaMA-7B: A large language model used as the base model for the project. It is chosen for its ability to generate coherent and accurate text.
-## Why LLaMA-7B?
-LLaMA-7B is chosen because of its large size and ability to generate coherent and accurate text. It is also a well-established model that has been used in various applications, making it a good choice for this project.
-## Project Layout:
-The project will be organized into the following directories and files:
-1. data: Contains the datasets used for training and testing.
-2. models: Contains the pre-trained language models used in the project.
-3. src: Contains the source code for the project, including the game-theoretic approach and the training and testing scripts.
-4. results: Contains the results of the training and testing, including performance metrics and visualizations.
-
+# Project Title: Reliable Language Models through Game-Theoretic Approach
+## Project Description:
+This project aims to improve the reliability of language models by incorporating a game-theoretic approach. The project is inspired by the Consensus Game, which reconciles mutually incompatible scoring procedures to achieve better performance.
+## Objectives:
+### 1. Improve the reliability of language models:
+The project aims to develop a game-theoretic approach to improve the reliability of language models by reconciling mutually incompatible scoring procedures which is a two-player sequential signaling game with imperfect information.
+### 2. Enhance the performance of language models: 
+The project aims to enhance the performance of language models by incorporating the game-theoretic approach.
+### 3. Develop a novel decoding algorithm: 
+The project aims to develop a novel decoding algorithm that can be used to improve the reliability of language models.
 ## Methodology:
-The project will follow the following methodology:
-1. Data Preparation: Preprocess the datasets and split them into training and testing sets.
-2. Model Selection: Choose the language models to be used and load them into the project.
-3. Game-Theoretic Approach: Implement the game-theoretic method called "equilibrium ranking" to find approximate equilibria of the game.
-4. Training and Testing: Train the model on the training set and test it on the testing set, evaluating its performance and comparing it to other methods.
-5. Integration and Enhancement: Integrate the outputs of the current method to enhance the base model, resulting in more factual and consistent answers across various tasks.
+1. Initialization of the game: The game is initialized by sampling a correctness parameter from a predefined set.
+2. Generator and discriminator: The generator and discriminator are trained to produce and evaluate natural language strings based on the correctness parameter.
+3. Equilibrium-Ranking: The game is solved using computational procedures to find approximate equilibria, resulting in a decoding algorithm called Equilibrium-Ranking.
+4. Implementation: The decoding algorithm is implemented with a generator and a discriminator that interact to agree on the correctness of a message.
+5. Evaluation:
+a.Cost Consensus Metric: This metric measures the minimal distance between each decision maker's preference and the collective opinion, aiming to minimize the overall cost.
+b.Distance-Based Consensus Metric: This metric calculates the distance between the collective opinion and each decision maker's preference, providing a measure of consensus.
+c.Gameplay Metrics: These metrics can be used to analyze gameplay and improve the Consensus Game. Examples include player retention, acquisition, and monetization metrics
+## Technical Requirements:
+1. Programming Language: Python
+2. Machine Learning Library: TensorFlow or PyTorch
+3. Natural Language Processing Library: NLTK or spaCy
+4. Game-Theoretic Library: Gurobi or CPLEX
+## Implementation Steps:
+Step 1: Initialize the game: Initialize the game by sampling a correctness parameter from a predefined set.
+Step 2: Train the generator and discriminator: Train the generator and discriminator using a machine learning library such as TensorFlow or PyTorch.
+Step 3: Implement Equilibrium-Ranking: Implement the Equilibrium-Ranking algorithm using a programming language such as Python.
+Step 4: Evaluate the performance: Evaluate the performance of the decoding algorithm using metrics such as accuracy, precision, and recall.
+## Applications:
+The Game can be  applied to various tasks, including reading comprehension, commonsense reasoning, mathematical problem-solving, and dialogue
+## Conclusion:
+The approach has the potential to significantly enhance the base models’ performance, leading to more reliable and factual outputs from language models.
