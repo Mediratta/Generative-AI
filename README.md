@@ -30,7 +30,7 @@ The decoding algorithm is implemented with a generator and a discriminator that 
 Step 1: Initialize the game: Initialize the game by sampling a correctness parameter from a predefined set.
 Step 2: Train the generator and discriminator: Train the generator and discriminator using a machine learning library such as TensorFlow or PyTorch.
 Step 3: Implement Equilibrium-Ranking: Implement the Equilibrium-Ranking algorithm using a programming language such as Python.
-Step 4: Evaluate the performance: Evaluate the performance of the decoding algorithm using metrics such as accuracy, precision, and recall.
+Step 4: Evaluate the performance
 ## Applications:
 The Game can be  applied to various tasks, including reading comprehension, commonsense reasoning, mathematical problem-solving, and dialogue
 ## Conclusion:
